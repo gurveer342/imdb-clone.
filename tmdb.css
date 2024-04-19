@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: "gilroy";
+}
+html,
+body {
+  height: 100vmax;
+  width: 100vmax;
+  
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.center-top {
+  height: 17vmax;
+  width: 50vmax;
+  color: white;
+  /* background-color: red; */
+  text-align: center;
+  /* display: flex; */
+  margin-top: 2vmax;
+  margin-left: 25vmax;
+  /* position: relative; */
+  overflow: hidden;
+}
+.center-top > h1 {
+  font-size: 9vmax;
+  /* position: absolute; */
+}
+.center-top>h3{
+    font-size: 2vmax;
+}
+.center-top .bmg{
+    position: absolute;
+    z-index: -9;
+    margin-left: -22vmax;
+    margin-top: -10vmax;
+    object-fit: cover;
+    /* top: -100vmax;
+    height: 20px;
+    display: none; */
+}
+.header {
+  margin-top: 7vmax;
+  height: 10vmax;
+  width: 60vmax;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  margin-left: 9vmax;
+  background-color: white;
+}
+.container {
+  min-height: 100vmax;
+ width: 100vmax;
+ min-width: fit-content;
+ flex-wrap: wrap;
+  display:flex;
+  padding: 0 6vmax;
+  /* overflow:initial; */
+  /* align-items: center; */
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+
+.slider {
+  height: 2.3vmax;
+  width: 25vmax;
+  /* background-color: rebeccapurple; */
+  margin-left: 1vmax;
+  border: 1px solid black;
+  border-radius: 1.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vmax;
+}
+.slider .streaming {
+  min-height: inherit;
+  min-width: inherit;
+  background-color: rgba(39, 47, 153, 0.534);
+  border-radius: 1vmax;
+  padding: 0.4vmax;
+}
+.container .card {
+  width:18rem;
+  /* border-radius: 15rem; */
+  margin-top: 1.5vmax;
+  border: none;
+  margin-left: 3vmax;
+  /* border-radius: 50%; */
+}
+.container .card .card-img-top {
+  height: 16vmax;
+  width: 11vmax;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 1vmax;
+}
+.card .card-title .link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.card .circle {
+  height: 2.5vmax;
+  width: 2.5vmax;
+  border-radius: 50vmax;
+  background-color: rgb(12, 17, 36);
+  margin-top: -1.5vmax;
+  color: white;
+  margin-left: 0.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-control{
+    height: 3vmax;
+    position: absolute;
+    width:90vmax;
+    /* background-color: red; */
+    margin-left: 3.7vmax;
+    margin-top: 4vmax;
+    border-radius: 3vmax;
+    border: 2px solid rgb(170, 85, 6);
+    outline: none;
+}
+.pagination{
+  position: absolute;
+  left: 50%;
+  top: 67%;
+  transform: translate(-50%,-50%);
+}
